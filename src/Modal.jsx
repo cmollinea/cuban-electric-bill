@@ -7,14 +7,14 @@ function Modal({ setModalIsOpen }) {
       <FaqItem>
         <span className="text-orange-600 font-semibold">Que es esto?</span>{" "}
         <br /> <hr className="mt-0.5 border-orange-600"></hr>
-        <span className="text-sm lg:text-lg font-semibold">
+        <span className="text-sm lg:text-lg font-base">
           Calculadora minimalista para conocer la factura electrica del mes.
         </span>
       </FaqItem>
       <FaqItem>
         <span className="text-orange-600 font-semibold">Como Funciona?</span>{" "}
         <br /> <hr className="mt-0.5 border-orange-600"></hr>
-        <span className="text-sm lg:text-lg font-semibold">
+        <span className="text-sm lg:text-lg font-base">
           Simplemente tome la lectura del metro dos veces al mes (al inicio y al
           final) e introduzca los datos.
         </span>
@@ -22,7 +22,7 @@ function Modal({ setModalIsOpen }) {
       <FaqItem>
         <span className="text-orange-600 font-semibold">Quien soy?</span> <br />{" "}
         <hr className="mt-0.5 border-orange-600"></hr>
-        <span className="text-sm lg:text-lg font-semibold">
+        <span className="text-sm lg:text-lg font-base">
           {" "}
           Mi nombre es Carlos Yoan soy ingeniero electrico pero me apasiona la
           programacion puedes contactarme a traves de este{" "}
