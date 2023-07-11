@@ -6,7 +6,7 @@ function FaqItem({ children }) {
   return (
     <div
       className={`relative transition-all duration-200 w-[80%] overflow-y-hidden ${
-        faqOpen ? "h-28" : "h-8"
+        faqOpen ? "max-sm:h-32 h-28" : "h-8"
       } text-xl`}
     >
       {children}

@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="min-h-screen font-semibold w-full">
-      <header className=" h-40 xl:h-80 shadow-md shadow-black  bg-orange-600">
+      <header className=" pt-4 h-40 xl:h-80 shadow-md shadow-black  bg-orange-600">
         <p className="text-slate-50 h-16 flex items-center justify-center font-semibold text-2xl xl:text-5xl text-center">
           Calculadora de Consumo Electrico
         </p>
@@ -30,7 +30,7 @@ function App() {
         <main className="grid xl:grid-cols-2 lg:px-40 gap-10 relative place-content-center min-h-screen">
           <div>
             <form
-              className="w-full lg:w-[80%] 3xl:[w-50%] 2xl:w-[50%] text-slate-50 flex gap-2 flex-col bg-gray-400 rounded-lg shadow-md shadow-black/30 p-6 mt-14"
+              className="w-[90%] lg:w-[80%] 3xl:[w-50%] 2xl:w-[50%] text-slate-50 flex gap-2 flex-col bg-gray-400 rounded-lg shadow-md shadow-black/30 p-6 mt-14"
               onSubmit={handleSubmit(onSubmit)}
             >
               <label
