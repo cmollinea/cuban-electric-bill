@@ -42,6 +42,7 @@ function App() {
               <div className="relative grid items-center">
                 {" "}
                 <input
+                  inputMode="numeric"
                   className="bg-slate-950/50 placeholder:text-slate-50/40 p-2 rounded-lg outline-none border-2 border-transparent focus:border-orange-600 transition-all ease-in"
                   id="first"
                   {...register("first", {
@@ -77,6 +78,7 @@ function App() {
               <div className="relative grid items-center">
                 {" "}
                 <input
+                  inputMode="numeric"
                   className="bg-slate-950/50 placeholder:text-slate-50/40 p-2 rounded-lg outline-none border-2 border-transparent focus:border-orange-600 transition-all ease-in"
                   id="second"
                   type="text"
